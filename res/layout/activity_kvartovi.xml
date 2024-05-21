@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quantum_bluegrey500">
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/recyclerview"/>-->
+
+    <TextView
+        android:id="@+id/subMenu1"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/starigrad"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Stari grad" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView1"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="65dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuOne"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuOne"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuOne"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuOne"/>-->
+
+    <TextView
+        android:id="@+id/subMenu2"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/rotkvarija"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu1"
+        android:text="Rotkvarija" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/rotkvarija"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuTwo"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuTwo"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuTwo"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuTwo" />-->
+
+    <TextView
+        android:id="@+id/subMenu3"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/podbara"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu2"
+        android:text="Podbara" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/podbara"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuThree"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuThree"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuThree"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuThree" />-->
+
+    <TextView
+        android:id="@+id/subMenu4"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/petrovaradin"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu3"
+        android:text="Petrovaradin" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/petrovaradin"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuFour"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuFour"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuFour"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuFour" />-->
+
+    <TextView
+        android:id="@+id/subMenu5"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/liman"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu4"
+        android:text="Liman" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/liman"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuFive"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuFive"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuFive"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuFive" />-->
+
+    <TextView
+        android:id="@+id/subMenu6"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/telep"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu5"
+        android:text="Telep" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/telep"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuSix"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuSix"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuSix"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuSix" />-->
+
+    <TextView
+        android:id="@+id/subMenu7"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/novonaselje"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu6"
+        android:text="Novo naselje" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/novonaselje"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuSeven"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuSeven"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuSeven"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuSeven" />-->
+
+    <TextView
+        android:id="@+id/subMenu8"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/detelinara"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu7"
+        android:text="Detelinara" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView8"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/detelinara"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuEight"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuEight"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuEight"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuEight" />-->
+
+    <TextView
+        android:id="@+id/subMenu9"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/sajmiste"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu8"
+        android:text="Sajmište" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView9"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/sajmiste"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuNine"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuNine"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuNine"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuNine" />-->
+
+    <TextView
+        android:id="@+id/subMenu10"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/grbavica"
+        android:onClick="onClick"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subMenu9"
+        android:text="Grbavica" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView10"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:src="@drawable/grbavica"-->
+<!--        android:scaleType="fitStart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/subMenuTen"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/subMenuTen"-->
+<!--        app:layout_constraintStart_toStartOf="@id/subMenuTen"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/subMenuTen" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
