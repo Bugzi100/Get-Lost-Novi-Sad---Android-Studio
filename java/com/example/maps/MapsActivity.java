@@ -87,13 +87,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         textStreetName = findViewById(R.id.ulicaText);
 
-//        Places.initialize(getApplicationContext(), "AIzaSyBn1EudR0pJFygqXr4JQdu04tDZZxhRXu8");
-//        if (Places.isInitialized()) {
-//            Log.d("Places", "Places API initialized successfully");
-//        } else {
-//            Log.e("Places", "Failed to initialize Places API");
-//        }
-
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
 
         fusedLocationProviderClient = (FusedLocationProviderClient) LocationServices.getFusedLocationProviderClient(this);
